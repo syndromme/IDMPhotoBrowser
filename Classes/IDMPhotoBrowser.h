@@ -71,6 +71,9 @@
 
 // Animation time (default .28)
 @property (nonatomic) float animationDuration;
+  
+//  Define counter separator string
+@property (nonatomic, weak) NSString *separatorString;
 
 // Init
 - (id)initWithPhotos:(NSArray *)photosArray;
